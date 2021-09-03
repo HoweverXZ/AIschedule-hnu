@@ -47,6 +47,7 @@ function scheduleHtmlParser(html) {
         break;
 
 } 
+        //position添加区
         re.position = $(bbb[u]).find('font[title=教室]').find('font[title=教室]')[0].children[0].data
         
           
