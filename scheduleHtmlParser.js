@@ -50,26 +50,6 @@ function weeksParser(weeks) {
     }
     
 
-//     if (numArr[0].match(/\d+\-\d+/g)){//匹配出xx-xx的格式或者一节课
-//         var resweek = numArr[0].match(/\d+\-\d+(\,\d+\-\d+)?/g)[0]
-// //          console.log(resweek)
-//         resweek = _create_array(resweek)
-// //         console.log(resweek)
-//         for (let a = 0; a < resweek.length; a++) {
-//             resweek[a] = parseInt(resweek[a])
-//         }
-//     } else {
-//         var resweek = numArr[0].split(",")
-// //         console.log(numArr)
-// //         console.log(resweek)
-//         for (let a = 0; a < resweek.length; a++) {
-//             resweek[a] = parseInt(resweek[a])                      
-//         }
-//     }
-//         return resweek
-}
-
-
 //读出课次格式不准确 进行修改
 function sectionParser(section) {
     var numArr2 = section.match(/\[.*\]/g) //匹配第几节课
